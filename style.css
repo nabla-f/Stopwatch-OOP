@@ -1,0 +1,66 @@
+#sw {
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: #bcbcbc;
+    user-select: none;
+}
+
+#sw-screen {
+    box-sizing: border-box;
+    margin: 15px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    font-family: 'Lato';
+    border-radius: 20px;
+    font-size: 6em;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefefed5;
+}
+
+#buttons {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    width:150px;
+    height:55px;
+    background:none;
+    border-radius:10px;
+    border: 1px solid black;
+    margin-bottom:15px;
+    cursor: pointer;
+    font-family: 'Lato';
+    margin: 5px;
+    font-size: 1.5em;
+    outline: none;
+    background-color: #fefefed5;
+    font-weight: 700;
+}
+
+.activeBtn {
+    background-color: #770301;
+    color: #fefefe;
+    border-color: #770301;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #sw-screen {
+        height: 50vh;
+        font-size: 12em;
+        font-weight: 300;
+        max-width: 1500px;
+        overflow: hidden;
+    }
+}
