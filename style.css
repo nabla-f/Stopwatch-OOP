@@ -10,7 +10,7 @@
     user-select: none;
 }
 
-#sw-screen {
+#sw-display {
     box-sizing: border-box;
     margin: 15px;
     display: flex;
@@ -28,7 +28,6 @@
 
 #buttons {
     margin: 15px;
-    padding: 10px;
     text-align: center;
 }
 
@@ -48,10 +47,21 @@
     font-weight: 700;
 }
 
-.activeBtn {
-    background-color: #770301;
+#btnStart.activeBtn {
+    background-color: #26A96C;
     color: #fefefe;
-    border-color: #770301;
+    border-color: #26A96C;
+}
+
+#btnStop.activeBtn {
+    background-color: #770301e0;
+    color: #fefefe;
+    border-color: #770301e0;
+}
+
+#btnReset:active {
+    background-color: #e9e7e7d5;
+    /* border-color: #e9e7e7d5; */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

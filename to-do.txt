@@ -1,0 +1,17 @@
+TODO:
+
+✔️ Use ES6 class syntax
+✔️ Adds methods to prototype rather than instance 
+✔️ Use appropiate names in vars, attrs and methods
+✔️ Replace the error handler logic when start/stop are clicked twice
+✔️ Remove attributes in closing HTML tags - This was a typo
+✔️ Change time tracker logic. Don't count time based on setInterval iterations
+✔️ Don't put the script tag after body - Changed using defer
+✔️ Only throw when you are planning to catch 
+✔️ Stopwatches should not know about the DOM - changed
+
+FUTURE IMPROVEMENTS:
+🔥 Use private, public and static props and methods
+🔥 Give a killer look to UI
+🔥 Add a interval record table (time elapsed when user press stop button)
+🔥 Do the interval record table optional
